@@ -13,25 +13,42 @@
 ### 🌟 Hakkımda
 
 </div>
-
-```python
 class EsraIlban:
     def __init__(self):
         self.isim        = "Esra İlban"
         self.universite  = "Bartın Üniversitesi"
-        self.bolum       = "Veri Bilimi & Yapay Zeka"
-        self.sinif       = "1. Sınıf 🎓"
+        self.bolum       = "Yapay Zeka Operatörlüğü"
+        self.sinif       = "2. Sınıf 🎓"
         self.diller      = ["Python 🐍", "C# ⚡"]
         self.ilgi        = ["Machine Learning 🤖", "Deep Learning 🧠",
-                             "Computer Vision 👁️", "Data Analysis 📊"]
+                            "Computer Vision 👁️", "Data Analysis 📊"]
         self.hedef       = "Yapay Zeka alanında dünya çapında iz bırakmak 🌍"
         self.su_an       = "CNN & RNN öğreniyorum 🔥"
+        self.motto       = "Merak et, öğren, üret 💜"
 
     def __str__(self):
-        return "Merhaba! Birlikte harika şeyler inşa edelim 🚀"
+        cizgi = "═" * 52
+        satirlar = [
+            f"╔{cizgi}╗",
+            f"   ✨ {self.isim}",
+            f"   🏫 {self.universite} · {self.bolum}",
+            f"   📚 {self.sinif}",
+            f"╠{cizgi}╣",
+            f"   💻 Diller     : {' | '.join(self.diller)}",
+            f"   💡 İlgi       : {', '.join(self.ilgi)}",
+            f"   🎯 Hedef      : {self.hedef}",
+            f"   🔥 Şu an      : {self.su_an}",
+            f"╠{cizgi}╣",
+            f"   💬 \"{self.motto}\"",
+            f"   🚀 Merhaba! Birlikte harika şeyler inşa edelim",
+            f"╚{cizgi}╝",
+        ]
+        return "\n".join(satirlar)
 
-ben = EsraIlban()
-print(ben)
+
+if __name__ == "__main__":
+    ben = EsraIlban()
+    print(ben)
 ```
 
 ---
