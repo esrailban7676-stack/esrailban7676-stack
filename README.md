@@ -12,7 +12,6 @@
 
 ### 🌟 Hakkımda
 
-```python
 class EsraIlban:
     def __init__(self):
         self.isim       = "Esra İlban"
@@ -25,4 +24,3 @@ class EsraIlban:
         self.hedef      = "Yapay Zeka alanında dünyada iz bırakma 🌍"
         self.su_an      = "CNN & RNN öğreniyorum 🔥"
         self.motto      = "Merak et, öğren, üret 💜"
-```
