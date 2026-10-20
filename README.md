@@ -26,51 +26,7 @@ class EsraIlban:
         self.su_an       = "CNN & RNN öğreniyorum 🔥"
         self.motto       = "Merak et, öğren, üret 💜"
 
-    def __str__(self):
-        cizgi = "═" * 52
-        satirlar = [
-            f"╔{cizgi}╗",
-            f"   ✨ {self.isim}",
-            f"   🏫 {self.universite} · {self.bolum}",
-            f"   📚 {self.sinif}",
-            f"╠{cizgi}╣",
-            f"   💻 Diller     : {' | '.join(self.diller)}",
-            f"   💡 İlgi       : {', '.join(self.ilgi)}",
-            f"   🎯 Hedef      : {self.hedef}",
-            f"   🔥 Şu an      : {self.su_an}",
-            f"╠{cizgi}╣",
-            f"   💬 \"{self.motto}\"",
-            f"   🚀 Merhaba! Birlikte harika şeyler inşa edelim",
-            f"╚{cizgi}╝",
-        ]
-        return "\n".join(satirlar)
-
-
-if __name__ == "__main__":
-    ben = EsraIlban()
-    print(ben)
-```
-
----
-
-<div align="center">
-
-### 🛠️ Teknolojiler & Araçlar
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=csharp&logoColor=white)
-![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
-![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-
-</div>
-
----
-
-<div align="center">
+    
 
 ### 🚀 Öğrenme Yolculuğum
 
