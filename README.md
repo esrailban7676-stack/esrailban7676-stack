@@ -12,22 +12,17 @@
 
 ### 🌟 Hakkımda
 
-</div>
+```python
 class EsraIlban:
     def __init__(self):
-        self.isim        = "Esra İlban"
-        self.universite  = "Bartın Üniversitesi"
-        self.bolum       = "Yapay Zeka Operatörlüğü"
-        self.sinif       = "2. Sınıf 🎓"
-        self.diller      = ["Python 🐍", "C# ⚡"]
-        self.ilgi        = ["Machine Learning 🤖", "Deep Learning 🧠",
-                            "Computer Vision 👁️", "Data Analysis 📊"]
-        self.hedef       = "Yapay Zeka alanında dünya çapında iz bırakmak 🌍"
-        self.su_an       = "CNN & RNN öğreniyorum 🔥"
-        self.motto       = "Merak et, öğren, üret 💜"
-
-    
-
-### 🚀 Öğrenme Yolculuğum
-
-</div>
+        self.isim       = "Esra İlban"
+        self.universite = "Bartın Üniversitesi"
+        self.bolum      = "Yapay Zeka Operatörlüğü"
+        self.sinif      = "2. Sınıf 🎓"
+        self.diller     = ["Python 🐍", "C# ⚡"]
+        self.ilgi       = ["Makine Öğrenimi 🤖", "Derin Öğrenme 🧠",
+                           "Bilgisayarlı Görme 👁️", "Veri Analizi 📊"]
+        self.hedef      = "Yapay Zeka alanında dünyada iz bırakma 🌍"
+        self.su_an      = "CNN & RNN öğreniyorum 🔥"
+        self.motto      = "Merak et, öğren, üret 💜"
+```
